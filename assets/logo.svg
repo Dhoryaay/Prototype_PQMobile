@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#1DE9B6"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2" fill="#FFFFFF" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <!-- Shield shape -->
+  <path d="M256 32 L480 128 L416 448 L256 512 L96 448 L32 128 Z" fill="url(#grad)"/>
+  <!-- Lattice overlay -->
+  <rect width="512" height="512" fill="url(#dots)"/>
+  <!-- Monogram -->
+  <text x="50%" y="58%" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="180" font-weight="bold">PQ</text>
+</svg>

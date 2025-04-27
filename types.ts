@@ -21,9 +21,7 @@ export interface ScreenProps {
 // Define props for splash screens
 export interface SplashScreenProps extends ScreenProps {
   disableAutoNavigation?: boolean;
+  hideButtons?: boolean;
 }
 
-// Define props for SplashScreen3
-export interface SplashScreen3Props extends SplashScreenProps {
-  showGetStarted?: boolean;
-}
+// Using generic SplashScreenProps for all splash screens; removed screen-specific interfaces
