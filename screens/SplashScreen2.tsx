@@ -55,7 +55,7 @@ const SplashScreen2: React.FC<SplashScreenProps> = ({ navigation, disableAutoNav
         <Text style={styles.title}>Quantum-Resistant Security</Text>
         <Text style={styles.description}>
           <Text style={{ fontSize: 16 }}>
-            Encrypt your files with post-quantum cryptography that even quantum computers can't break.
+            Secure your files with post-quantum encryption that even quantum computers cannot break.
           </Text>
         </Text>
         

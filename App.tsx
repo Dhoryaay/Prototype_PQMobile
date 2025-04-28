@@ -35,8 +35,8 @@ export default function App(): React.ReactElement {
         <Stack.Navigator initialRouteName={isFirstLaunch ? 'Onboarding' : 'Login'}>
           <Stack.Screen name="Onboarding" component={OnboardingScreen} options={{ headerShown: false }} />
           <Stack.Screen name="Welcome" component={WelcomeScreen} options={{ headerShown: false }} />
-          <Stack.Screen name="Login" component={LoginScreen} options={{ title: 'Login' }} />
-          <Stack.Screen name="SignUp" component={SignUpScreen} options={{ title: 'Sign Up' }} />
+          <Stack.Screen name="Login" component={LoginScreen} options={{ title: 'Login', animation: 'slide_from_right' }} />
+          <Stack.Screen name="SignUp" component={SignUpScreen} options={{ title: 'Sign Up', animation: 'slide_from_right' }} />
           <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'PQMobile Vault' }} />
           <Stack.Screen name="Settings" component={SettingsScreen} options={{ title: 'Settings' }} />
         </Stack.Navigator>
